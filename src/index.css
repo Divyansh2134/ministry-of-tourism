@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    margin: 0;
-    width: 100vw;
+    padding-top: 8.188em;
+    width: 100%;
 }
 a{
     text-decoration: none;

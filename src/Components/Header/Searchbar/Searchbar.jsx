@@ -47,5 +47,6 @@ color: rgba(37, 49, 60, 0.49);
 `
 
 const SearchI=styled(SearchIcon)`
+  cursor:pointer;
 width:20%;
 `

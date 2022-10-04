@@ -34,7 +34,7 @@ export default Header2;
 const Container=styled.div`
 position:fixed;
 background-color:white;
-width:100vw;
+width:100%;
 height:5.563rem;
 Top:2.625rem;
 display:flex;

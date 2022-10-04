@@ -34,7 +34,8 @@ export default Header1;
 
 const Container=styled.div`
 position:fixed;
-width:100vw;
+Top:0rem;
+width:100%;
 background: white;
 .header{
   align-items: center;
@@ -115,7 +116,7 @@ font-style: regular;
 
 const Bottomline=styled.div`
 position: absolute;
-width: 100vw;
+width: 100%;
 height: 1px;
 left: 0px;
 top: 2.5rem;
