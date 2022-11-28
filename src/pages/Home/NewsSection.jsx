@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-function Newsupdate() {
+function NewsSection() {
   return (
     <Container>
      <Newssection>
@@ -17,17 +17,17 @@ function Newsupdate() {
   )
 }
 
-export default Newsupdate
+export default NewsSection
 
 const Container=styled.div`
-height:14.5rem;
-white:100%;
+height:13rem;
+width:100%;
 display: flex;
 align-items: center;
 justify-content: center;
 `
 const Newssection=styled.div`
-height:5.688rem;
+height:5rem;
 width:76%;
 display:flex;
 .text{

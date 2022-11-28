@@ -24,7 +24,7 @@ function Header1(){
          <div className='space1'></div>
       </div>
   
-      <Bottomline/>
+
     </Container> 
   );
 }
@@ -33,7 +33,17 @@ export default Header1;
 
 
 const Container=styled.div`
-position:fixed;
+position: absolute;
+a{
+  font-family: 'Mulish';
+font-style: regular;
+font-weight: 600;
+font-size: 17px;
+text-decoration:none;
+color: #25313C;
+}
+${'' /* position:fixed; */}
+
 Top:0rem;
 width:100%;
 background: white;
@@ -44,15 +54,15 @@ background: white;
   text-align:center;
 }
 .space1{
-  width:12%;
+  width:10%;
   height:2.625rem;
 }
 .mid{
-  width:12%;
+  width:17%;
   height:2.625rem;
 }
 .Topleft{
-  width:49%;
+  width:54%;
   display:flex;
  justify-content:space-between;
  height:2.625rem;
@@ -68,7 +78,7 @@ color: #25313C;
  }
 }
 .Topright{
-  width:15%;
+  width:20%;
   display:flex;
  justify-content:space-around;
  height:2.625rem;
@@ -114,14 +124,7 @@ font-style: regular;
 }
 `
 
-const Bottomline=styled.div`
-position: absolute;
-width: 100%;
-height: 1px;
-left: 0px;
-top: 2.5rem;
-background: #D9D9D9;
-`
+
 
 const PermIdentity =styled(PermIdentityIcon)`
 `

@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
 import styled from 'styled-components';
 import Searchbar from './Searchbar/Searchbar';
+import './header2.css'
+
 
 function Header2 () {
+  
+
   return (
-    <Container>
+    <Container  >
+    <div className='flex'>
       <Left></Left>
       <Mid>
         <div className='left'>
-        <img src='/images/emblem.jpg' alt='img'></img>
+        <img src='/images/Home/emblem.jpg' alt='img'></img>
         </div>
         <div className='leftspace'></div>
         <div className='mid'>
@@ -24,7 +29,9 @@ function Header2 () {
         </div>
       </Mid>
       <Right></Right>
-
+      </div>
+      
+      <Bottomline/>
     </Container>
   )
 }
@@ -32,20 +39,23 @@ function Header2 () {
 export default Header2;
 
 const Container=styled.div`
-position:fixed;
 background-color:white;
 width:100%;
 height:5.563rem;
 Top:2.625rem;
-display:flex;
+position: absolute;
+${'' /* position:fixed; */}
+.flex{
+  display:flex;
+}
 
 `
 const Left=styled.div`
-width:12%;
+width:9%;
 height:5.563rem;
 `
 const Mid=styled.div`
-width:76%;
+width:82%;
 height:5.563rem;
 display:flex;
 justify-content:space-between;
@@ -90,8 +100,16 @@ img{
 
 `
 const Right=styled.div`
-width:12%;
+width:9%;
 height:5.563rem;
+`
+
+const Bottomline=styled.div`
+width: 100%;
+height: 1px;
+left: 0px;
+top: 8.188rem;
+background: #D9D9D9;
 `
 
 

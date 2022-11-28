@@ -1,15 +1,22 @@
 import React from "react";
-import Header from "./Components/Header/Header";
-import Imagesection from "./Components/Home/Imagesection";
-import Newsupdate from "./Components/Home/Newsupdate";
+import Home from "./pages/Home/Home";
+import './App.css'
+import {
+  BrowserRouter ,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
-    <div >
-    <Header />
-    <Imagesection />
-    <Newsupdate />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+      </Routes>
+      <Routes>
+        <Route path="ok" element={<h1>ok</h1>}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
