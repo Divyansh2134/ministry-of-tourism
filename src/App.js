@@ -1,5 +1,7 @@
 import React from "react";
 import Home from "./pages/Home/Home";
+import Typesoftravel from "./pages/typesOfTravel/typesoftravel";
+import Media from "./pages/media/media";
 import './App.css'
 import {
   BrowserRouter ,
@@ -14,7 +16,10 @@ function App() {
         <Route path="/" element={<Home />}></Route>
       </Routes>
       <Routes>
-        <Route path="ok" element={<h1>ok</h1>}></Route>
+        <Route path="types" element={<Typesoftravel />}></Route>
+      </Routes>
+      <Routes>
+        <Route path="media" element={<Media />}></Route>
       </Routes>
     </BrowserRouter>
   );

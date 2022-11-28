@@ -7,6 +7,7 @@ import Popular from './Popular'
 import Explore from './Explore'
 import styled from 'styled-components'
 import Header from '../../Components/Header/Header'
+import Footer from '../../Components/Header/footer'
 
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
       <Strategies />
       <Popular />
       <Explore />
+      <Footer />
     </Container>
   )
 }
