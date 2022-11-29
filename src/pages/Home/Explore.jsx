@@ -36,7 +36,7 @@ function Explore() {
 export default Explore
 
 const Container=styled.div`
-height:100vh;
+height:120vh;
 width:100%;
 display:flex;
 `
@@ -50,7 +50,7 @@ const Mid=styled.div`
 width:82%;
 .wrapper{
   width:100%;
-  height:100%;
+  height:110vh;
 .inside{
   display:flex;
   margin-top:1rem;

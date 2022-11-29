@@ -2,6 +2,8 @@ import React, { useState,useEffect } from 'react'
 import styled from 'styled-components';
 import Searchbar from './Searchbar/Searchbar';
 import './header2.css'
+import { NavLink } from "react-router-dom";
+
 
 
 function Header2 () {
@@ -17,10 +19,10 @@ function Header2 () {
         </div>
         <div className='leftspace'></div>
         <div className='mid'>
+          <div className='Hover'><NavLink  to='/'>Home</NavLink></div>
           <div className='Hover'>About us</div>
-          <div className='Hover'>Tour package</div>
-          <div className='Hover'>Type of travel</div>
-          <div className='Hover'>Media</div>
+          <div className='Hover'><NavLink  to='/types'>Type of travel</NavLink></div>
+          <div className='Hover'><NavLink to='/media'>Media</NavLink></div>
           <div className='Hover'>Help</div>
         </div>
         <div className='rightspace'></div>
