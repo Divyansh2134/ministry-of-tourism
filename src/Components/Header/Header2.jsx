@@ -19,10 +19,10 @@ function Header2 () {
         </div>
         <div className='leftspace'></div>
         <div className='mid'>
-          <div className='Hover'><NavLink  to='/'>Home</NavLink></div>
-          <div className='Hover'><NavLink  to='/about'>About Us</NavLink></div>
-          <div className='Hover'><NavLink  to='/types'>Type of travel</NavLink></div>
-          <div className='Hover'><NavLink to='/media'>Media</NavLink></div>
+          <div className='Hover'><NavLink className='textcolor'  to='/'>Home</NavLink></div>
+          <div className='Hover'><NavLink className='textcolor' to='/about'>About Us</NavLink></div>
+          <div className='Hover'><NavLink className='textcolor' to='/types'>Type of travel</NavLink></div>
+          <div className='Hover'><NavLink className='textcolor' to='/media'>Media</NavLink></div>
           <div className='Hover'>Help</div>
         </div>
         <div className='rightspace'></div>
@@ -98,6 +98,11 @@ img{
 }
 .Hover{
     cursor:pointer;
+    
+}
+
+.textcolor{
+  color:rgba(37,49,60,0.95) !important;
 }
 
 `
