@@ -20,7 +20,7 @@ function Header2 () {
         <div className='leftspace'></div>
         <div className='mid'>
           <div className='Hover'><NavLink  to='/'>Home</NavLink></div>
-          <div className='Hover'>About us</div>
+          <div className='Hover'><NavLink  to='/about'>About Us</NavLink></div>
           <div className='Hover'><NavLink  to='/types'>Type of travel</NavLink></div>
           <div className='Hover'><NavLink to='/media'>Media</NavLink></div>
           <div className='Hover'>Help</div>

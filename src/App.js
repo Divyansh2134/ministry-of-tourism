@@ -1,7 +1,8 @@
 import React from "react";
 import Home from "./pages/Home/Home";
 import Typesoftravel from "./pages/typesOfTravel/typesoftravel";
-import Media from "./pages/Media/media.jsx";
+import Media from "./pages/media/media.jsx";
+import About_Us from "./pages/AboutUs/About_Us";
 import './App.css'
 import {
   BrowserRouter ,
@@ -20,6 +21,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="media" element={<Media />}></Route>
+      </Routes>
+      <Routes>
+        <Route path="about" element={<About_Us/>}></Route>
       </Routes>
     </BrowserRouter>
   );
