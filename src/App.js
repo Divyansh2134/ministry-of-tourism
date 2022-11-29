@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./pages/Home/Home";
 import Typesoftravel from "./pages/typesOfTravel/typesoftravel";
-import Media from "./pages/Media/media.jsx"
+import Media from "./pages/media/media"
 import About_Us from "./pages/AboutUs/About_Us";
 import './App.css'
 import {
