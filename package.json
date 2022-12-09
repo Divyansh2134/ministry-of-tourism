@@ -31,6 +31,10 @@
     "styled-components": "^5.0.0",
     "web-vitals": "^2.1.4"
   },
+  "peerDependencies": {
+  "@babel/core": "^7.0.0",
+  "react": ">=16.8.0"
+},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
