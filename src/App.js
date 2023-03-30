@@ -3,6 +3,7 @@ import Home from "./pages/Home/Home";
 import Typesoftravel from "./pages/typesOfTravel/typesoftravel";
 import Media from "./pages/Media/media.jsx"
 import About_Us from "./pages/AboutUs/About_Us";
+import PlanYourJourny from "./pages/PlanYourJourny/PlanYourJourny";
 import './App.css'
 import {
   BrowserRouter ,
@@ -14,7 +15,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/" element={<PlanYourJourny />}></Route>
+      </Routes>
+      <Routes>
+        <Route path="ok" element={<Home />}></Route>
       </Routes>
       <Routes>
         <Route path="types" element={<Typesoftravel />}></Route>
