@@ -15,10 +15,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<PlanYourJourny />}></Route>
+        <Route path="ok" element={<PlanYourJourny />}></Route>
       </Routes>
       <Routes>
-        <Route path="ok" element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
       </Routes>
       <Routes>
         <Route path="types" element={<Typesoftravel />}></Route>
