@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function ImageSlider() {
   return (
-    <>
+    <div  >
     <div className="container my-4 center w-75">
 <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
   <ol className="carousel-indicators">
@@ -41,6 +41,6 @@ export default function ImageSlider() {
   </a>
 </div>
 </div>
-</>
+</div>
 )
 }

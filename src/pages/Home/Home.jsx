@@ -1,7 +1,7 @@
 import React from 'react'
 import ImageSection from './ImageSection'
-import NewsSection from './NewsSection'
-import Regions_of_India from './Regions_of_India'
+// import NewsSection from './NewsSection'
+import Regions_of_India from './Regions_of_India/Regions_of_India'
 import Strategies from './Strategies'
 import Popular from './Popular'
 import Explore from './Explore'
@@ -15,7 +15,7 @@ function Home() {
     <Container >
       <Header />
       <ImageSection />
-      <NewsSection />
+      {/* <NewsSection /> */}
       <Regions_of_India />
       <Strategies />
       <Popular />

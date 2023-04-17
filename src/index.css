@@ -12,3 +12,14 @@ a{
     text-decoration: none !important;
     color: black;
 }
+
+/* map */
+path:hover{
+    fill: rgb(232, 156, 211);
+    
+     /* border:5px solid blue; */
+   }
+ code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
