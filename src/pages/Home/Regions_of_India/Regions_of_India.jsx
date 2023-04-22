@@ -12,7 +12,7 @@ function Regions_of_India() {
          */}
              <span>
       {/* <StateContent id={}/> */}
-      <Heading><h2>Regions Of India</h2></Heading>
+      <Heading><h2>Regions Of India</h2></Heading>    
       <SvgComponent />
       {/* {hoveredState && <h2>{this.hoveredState}</h2>} */}
     </span>
